@@ -49,6 +49,8 @@ nav ul{
     display: flex;
     flex-direction: column;
     gap: 36px;
+    padding-top: 250px;
+    padding-left: 100px;
   }
   .hero h1 {
     font-weight: 800;
@@ -66,12 +68,24 @@ nav ul{
     gap: 40px;
   }
   .hero-btn button {
-    font-size: 24px;
+    padding: 6px 19px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+
   }
   .secondary-btn {
-    background: transparent;
-    color: var(--gray);
-    border: 1px solid gray;
+    padding: 6px 19px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+
+    
+  }
+  .hero-image{
+    padding-top: 180px;
   }
   
   .shopping p {
@@ -81,4 +95,5 @@ nav ul{
   .brand-icons {
     display: flex;
     gap: 16px;
+    
   }
